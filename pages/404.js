@@ -9,6 +9,12 @@ export default function FourOhFour() {
       <Head>
         <title>We have moved</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          defer
+          data-domain="frankbyte.com"
+          src="https://plausible.io/js/plausible.outbound-links.js"
+        />
       </Head>
 
       <main className={styles.main}>
