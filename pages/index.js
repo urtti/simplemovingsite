@@ -1,25 +1,30 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>We have moved.</title>
+        <title>frankbyte.</title>
         <link rel="icon" href="/favicon.ico" />
-        <script
-          async
-          defer
-          data-domain="frankbyte.com"
-          src="https://plausible.io/js/plausible.outbound-links.js"
-        />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>We have moved.</h1>
-        <p className={styles.description}>
-          Find us at <a href="https://owlocr.com">https://owlocr.com</a>.
-        </p>
+        <h1 className={styles.title}>frankbyte.</h1>
+        <br />
+        <br />
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <div>
+            <a href="https://owlocr.com">
+              <h1 className={styles.title}>owlocr</h1>
+            </a>
+          </div>
+          <div style={{ paddingLeft: "24px" }}>
+            <a href="https://frankbyte.com/weather">
+              <h1 className={styles.title}>big weather</h1>
+            </a>
+          </div>
+        </div>
       </main>
     </div>
   );
