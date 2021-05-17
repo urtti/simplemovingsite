@@ -285,6 +285,12 @@ export default function Terms() {
             </div>
           </p>
           <p class="p1">
+            <div>
+              Apple's standard user license applies also applies:
+              https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+            </div>
+          </p>
+          <p class="p1">
             <strong>Contact Us</strong>
           </p>
           <p class="p1">
